@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<!--
+  TEMPLATE — do not link to this file directly.
+  Copy it to <app-slug>/privacy.html, then replace every {{PLACEHOLDER}}.
+  See README.md for the checklist.
+
+  Placeholders:
+    {{APP_NAME}}      e.g. Iman Pro
+    {{APP_SUMMARY}}   one sentence on what the app does
+    {{DATE}}          e.g. 2 August 2026
+    {{CONTACT_EMAIL}} a working address you actually read
+
+  IMPORTANT: every row in the data table must be verified against the code
+  before publishing. Do not ship a guessed table — App Review reads it,
+  and it must match your App Privacy form in App Store Connect.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — {{APP_NAME}}</title>
+<link rel="stylesheet" href="../assets/style.css">
+
+<p class="back"><a href="../">← GrowtherLab legal</a></p>
+
+<h1>Privacy Policy</h1>
+<p class="updated">{{APP_NAME}} — Last updated: {{DATE}}</p>
+
+<p>
+  {{APP_SUMMARY}} This policy explains what the app handles and what leaves your device.
+</p>
+
+<h2>Information the app handles</h2>
+<div class="wrap">
+<table>
+  <tr><th>Data</th><th>Purpose</th><th>Where it goes</th></tr>
+  <tr>
+    <td>{{DATA_ITEM}}</td>
+    <td>{{WHY_IT_IS_NEEDED}}</td>
+    <td>{{WHERE_IT_GOES}}</td>
+  </tr>
+  <!-- one row per real data flow -->
+</table>
+</div>
+
+<h2>Purchases and subscriptions</h2>
+<p>
+  Subscriptions are sold and processed by Apple. {{APP_NAME}} never sees or receives your
+  payment details. The app uses Adapty to check whether a subscription is active; Adapty
+  assigns an anonymous identifier to the installation and receives purchase events from
+  Apple. See the
+  <a href="https://adapty.io/privacy/">Adapty Privacy Policy</a> and the
+  <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
+</p>
+
+<h2>Third-party services</h2>
+<ul>
+  <li>{{SERVICE}} — {{WHAT_IT_DOES}}</li>
+</ul>
+<p>
+  These services receive only the data described in the table above. Requests may include
+  your device's IP address, as with any internet connection.
+</p>
+
+<h2>What the app does not do</h2>
+<ul>
+  <li>No user accounts, sign-up or login</li>
+  <li>No advertising and no advertising identifiers</li>
+  <li>No analytics or behavioural tracking SDKs</li>
+  <li>No selling or sharing of personal data</li>
+  <li>No contacts, photos, microphone or health data access</li>
+</ul>
+
+<h2>Data retention</h2>
+<p>
+  Your settings are stored only on your device and are removed when you delete the app.
+  Because {{APP_NAME}} holds no accounts and runs no servers, there is no stored profile
+  to delete or export.
+</p>
+
+<h2>Children</h2>
+<p>
+  {{APP_NAME}} is suitable for a general audience and does not knowingly collect personal
+  information from children.
+</p>
+
+<h2>Your rights</h2>
+<p>
+  Depending on where you live, you may have rights to access, correct or delete personal
+  data held about you. As described above, {{APP_NAME}} does not hold personal data on any
+  server. For questions about data handled by Apple or Adapty, please refer to their
+  policies linked above, or contact us.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the updated version will be posted on this page with a new date
+  at the top.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy:
+  <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>
+</p>
+
+<footer>{{APP_NAME}} is published by GrowtherLab.</footer>
+</html>
