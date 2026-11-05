@@ -13,8 +13,10 @@ and users need to be able to open.
 ```
 index.html              directory of apps and their policies
 assets/style.css        shared styling for every page
-TEMPLATE-privacy.html   starting point for a new app
+TEMPLATE-privacy.html   starting point for a new app's policy
 iman-pro/privacy.html   https://growtherlab.github.io/legal/iman-pro/privacy.html
+nerida/privacy.html     https://growtherlab.github.io/legal/nerida/privacy.html
+nerida/support.html     https://growtherlab.github.io/legal/nerida/support.html
 .nojekyll               serve files as-is, no Jekyll processing
 ```
 
@@ -26,8 +28,11 @@ iman-pro/privacy.html   https://growtherlab.github.io/legal/iman-pro/privacy.htm
 4. **Verify the data table against the actual code** — every row must describe a
    real network call or a real local store. Do not copy another app's table.
    This table has to agree with the App Privacy form in App Store Connect.
-5. Add the app to `index.html`.
-6. Commit. Pages redeploys in about a minute.
+5. If the app needs a Support URL, add `support.html` alongside it. App Review
+   requires a reachable support page; `nerida/support.html` is a worked example.
+   Answer the questions the app actually raises, not generic filler.
+6. Add the app to `index.html`.
+7. Commit. Pages redeploys in about a minute.
 
 ## Terms of Use
 
