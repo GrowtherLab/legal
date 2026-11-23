@@ -15,6 +15,7 @@ index.html              directory of apps and their policies
 assets/style.css        shared styling for every page
 TEMPLATE-privacy.html   starting point for a new app's policy
 iman-pro/privacy.html   https://growtherlab.github.io/legal/iman-pro/privacy.html
+iman-pro/support.html   https://growtherlab.github.io/legal/iman-pro/support.html
 nerida/privacy.html     https://growtherlab.github.io/legal/nerida/privacy.html
 nerida/support.html     https://growtherlab.github.io/legal/nerida/support.html
 .nojekyll               serve files as-is, no Jekyll processing
