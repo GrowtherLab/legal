@@ -2,18 +2,20 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Iman Pro</title>
+<title>Privacy Policy — Salah Times</title>
 <link rel="stylesheet" href="../assets/style.css">
 
 <p class="back"><a href="../">← GrowtherLab legal</a></p>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Iman Pro — Last updated: 2 August 2026</p>
+<p class="updated">Salah Times, Athan &amp; Qibla — Last updated: 23 November 2026</p>
 
 <p>
-  Iman Pro provides prayer times, athan notifications, a qibla compass and a monthly
-  timetable. This policy explains what the app handles and what leaves your device.
-  Iman Pro has no user accounts and operates no servers of its own.
+  Salah Times provides prayer times, athan notifications, a qibla compass and a monthly
+  timetable. On your phone it may be named Namaz Vakti, Waktu Solat, Waktu Sholat or
+  مواقيت الصلاة, depending on your language; it was previously published under the name
+  Iman Pro. This policy explains what the app handles and what leaves your device.
+  Salah Times has no user accounts and operates no servers of its own.
 </p>
 
 <h2>Information the app handles</h2>
@@ -22,13 +24,20 @@
   <tr><th>Data</th><th>Purpose</th><th>Where it goes</th></tr>
   <tr>
     <td>Device location</td>
-    <td>Determining your city so prayer times are accurate</td>
+    <td>Working out your city, your official prayer-time zone and the qibla direction</td>
     <td>Used on your device only. Precise coordinates are never transmitted.</td>
   </tr>
   <tr>
-    <td>City and country name</td>
-    <td>Requesting prayer times and the monthly timetable</td>
+    <td>City and country name, and the date</td>
+    <td>Requesting prayer times, the monthly timetable and Hijri dates</td>
     <td>Sent to the Aladhan prayer times API</td>
+  </tr>
+  <tr>
+    <td>Official zone or city code, and the date (Malaysia, Indonesia and Oman only)</td>
+    <td>Requesting the timetable published by the national authority</td>
+    <td>Sent to JAKIM (e-solat.gov.my) in Malaysia, to the myQuran API that serves the
+      Kemenag timetable in Indonesia, or to the Ministry of Awqaf and Religious Affairs
+      (mara.gov.om) in Oman. The code is chosen on your device from your location.</td>
   </tr>
   <tr>
     <td>City name you type when searching</td>
@@ -36,30 +45,31 @@
     <td>Sent to the Open-Meteo geocoding API</td>
   </tr>
   <tr>
-    <td>Calendar date</td>
-    <td>Converting between Gregorian and Hijri dates</td>
-    <td>Sent to the Aladhan API</td>
-  </tr>
-  <tr>
     <td>Selected location and app settings</td>
     <td>Remembering your preferences</td>
     <td>Stored locally on your device</td>
   </tr>
   <tr>
-    <td>Subscription status</td>
+    <td>Subscription status and purchase history</td>
     <td>Unlocking premium features</td>
-    <td>Handled by Apple and by Adapty using an anonymous identifier</td>
+    <td>Handled by Apple and by Adapty, linked to an anonymous identifier</td>
+  </tr>
+  <tr>
+    <td>Subscription screen views, device model, iOS version and language</td>
+    <td>Showing and measuring the subscription offer</td>
+    <td>Sent to Adapty, linked to the same anonymous identifier</td>
   </tr>
 </table>
 </div>
 
 <h2>Location</h2>
 <p>
-  If you grant location permission, Iman Pro uses your device location while the app is
-  in use to work out which city you are in. Only the resulting city and country names are
-  sent to the prayer times service. Your latitude and longitude are not transmitted and
-  are not stored on any server. You can also skip location permission entirely and choose
-  your city manually.
+  If you grant location permission, Salah Times uses your device location while the app is
+  in use to work out which city you are in and the direction of the qibla. The qibla
+  direction is calculated on your device. Only the resulting city and country names, or the
+  official zone or city code where a national timetable is used, are sent to the prayer
+  times services. Your latitude and longitude are not transmitted and are not stored on any
+  server. You can also skip location permission entirely and choose your city manually.
 </p>
 
 <h2>Notifications</h2>
@@ -70,10 +80,13 @@
 
 <h2>Purchases and subscriptions</h2>
 <p>
-  Premium subscriptions are sold and processed by Apple. Iman Pro never sees or receives
-  your payment details. The app uses Adapty to check whether a subscription is active;
-  Adapty assigns an anonymous identifier to the installation and receives purchase events
-  from Apple. See the
+  Premium subscriptions are sold and processed by Apple. Salah Times never sees or receives
+  your payment details. The app uses Adapty to show the subscription offer and to check
+  whether a subscription is active. Adapty assigns an anonymous identifier to the
+  installation, receives purchase events from Apple, and records when the subscription
+  screen is shown together with basic device information (device model, iOS version and
+  language). This identifier is not linked to your name, email or Apple Account, and it is
+  not used for advertising or to track you across other apps. See the
   <a href="https://adapty.io/privacy/">Adapty Privacy Policy</a> and the
   <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
 </p>
@@ -81,8 +94,11 @@
 <h2>Third-party services</h2>
 <ul>
   <li><a href="https://aladhan.com/">Aladhan</a> — prayer time and Hijri date calculations</li>
+  <li><a href="https://www.e-solat.gov.my/">JAKIM e-Solat</a> — official prayer times in Malaysia</li>
+  <li><a href="https://api.myquran.com/">myQuran</a> — the Kemenag prayer timetable in Indonesia</li>
+  <li><a href="https://www.mara.gov.om/">Ministry of Awqaf and Religious Affairs, Oman</a> — official prayer times in Oman</li>
   <li><a href="https://open-meteo.com/">Open-Meteo</a> — city search (geocoding)</li>
-  <li><a href="https://adapty.io/">Adapty</a> — subscription status management</li>
+  <li><a href="https://adapty.io/">Adapty</a> — subscription offer and subscription status</li>
   <li><a href="https://www.apple.com/">Apple</a> — payment processing and subscription billing</li>
 </ul>
 <p>
@@ -94,7 +110,8 @@
 <ul>
   <li>No user accounts, sign-up or login</li>
   <li>No advertising and no advertising identifiers</li>
-  <li>No analytics or behavioural tracking SDKs</li>
+  <li>No tracking across other companies' apps or websites</li>
+  <li>No analytics beyond the subscription screen views described above</li>
   <li>No selling or sharing of personal data</li>
   <li>No contacts, photos, microphone or health data access</li>
 </ul>
@@ -102,22 +119,23 @@
 <h2>Data retention</h2>
 <p>
   Your settings and selected location are stored only on your device and are removed when
-  you delete the app. Because Iman Pro holds no accounts and runs no servers, there is no
-  stored profile to delete or export.
+  you delete the app. Salah Times holds no accounts and runs no servers, so there is no
+  profile of ours to delete or export. Data held by Adapty and Apple is kept under their
+  policies linked above.
 </p>
 
 <h2>Children</h2>
 <p>
-  Iman Pro is suitable for a general audience and does not knowingly collect personal
+  Salah Times is suitable for a general audience and does not knowingly collect personal
   information from children.
 </p>
 
 <h2>Your rights</h2>
 <p>
   Depending on where you live, you may have rights to access, correct or delete personal
-  data held about you. As described above, Iman Pro does not hold personal data on any
-  server. For questions about data handled by Apple or Adapty, please refer to their
-  policies linked above, or contact us.
+  data held about you. As described above, Salah Times does not hold personal data on any
+  server of its own. For questions about data handled by Apple or Adapty, please refer to
+  their policies linked above, or contact us.
 </p>
 
 <h2>Changes to this policy</h2>
@@ -131,6 +149,10 @@
   Questions about this policy:
   <a href="mailto:6p7vhcxjmn@privaterelay.appleid.com">6p7vhcxjmn@privaterelay.appleid.com</a>
 </p>
+<p>
+  See also <a href="support.html">Support</a> and the
+  <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple Standard EULA)</a>.
+</p>
 
-<footer>Iman Pro is published by GrowtherLab.</footer>
+<footer>Salah Times is published by GrowtherLab.</footer>
 </html>
