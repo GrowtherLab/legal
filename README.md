@@ -18,6 +18,8 @@ iman-pro/privacy.html   https://growtherlab.github.io/legal/iman-pro/privacy.htm
 iman-pro/support.html   https://growtherlab.github.io/legal/iman-pro/support.html
 nerida/privacy.html     https://growtherlab.github.io/legal/nerida/privacy.html
 nerida/support.html     https://growtherlab.github.io/legal/nerida/support.html
+innergut/privacy.html   https://growtherlab.github.io/legal/innergut/privacy.html
+innergut/support.html   https://growtherlab.github.io/legal/innergut/support.html
 .nojekyll               serve files as-is, no Jekyll processing
 ```
 
